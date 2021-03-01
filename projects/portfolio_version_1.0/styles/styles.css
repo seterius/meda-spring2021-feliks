@@ -1,0 +1,13 @@
+body {
+  background-color: lightblue;
+  color: black;
+}
+
+a:link {
+  color: blue;
+}
+
+h1 {
+  color: red;
+  margin-left: 40px;
+}
