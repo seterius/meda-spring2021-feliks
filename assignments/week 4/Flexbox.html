@@ -1,0 +1,52 @@
+<!Doctype html>
+<html lang="en">
+
+
+<head>
+   <meta charset="utf-8" />
+   <title>CSS Flexbox</title>
+
+   <style>
+           #container {
+                   height: 500px;
+                   background-color: moccasin;
+                   display: flexbox;
+           }
+
+           .child {
+                   background-color: palegreen;
+                   height: 33.3%; /*166.6666666~ */
+                   flex-grow: 1;
+                   margin: 0 5px;
+                   flex-basis: 200px;
+           }
+
+           #second {
+                   flex-grow: 2;
+           }
+
+           #third {
+                   flex-grow: 4;
+           }
+
+
+         </style>
+    </head>
+    <body>
+           
+        <div id="container">
+            <div class="child" id="first">
+                    <p>Hello! Hello! Hello</p>
+         </div>
+            <div class="child" id-"second">
+                    <p>Hello! Hello! Hello!</p>
+
+            </div>
+            <div class="child"></div>
+
+        
+    </body>
+
+    </html>
+        
+
